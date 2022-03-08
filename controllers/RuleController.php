@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
-class RuleController extends Controller
+class RuleController extends \app\components\Controller
 {
     /**
      * @var string|DbManager The auth manager component ID.

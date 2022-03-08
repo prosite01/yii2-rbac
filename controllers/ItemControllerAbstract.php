@@ -22,7 +22,7 @@ use dektrium\rbac\models\Search;
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
-abstract class ItemControllerAbstract extends Controller
+abstract class ItemControllerAbstract extends \app\components\Controller
 {
     /**
      * @param  string $name
