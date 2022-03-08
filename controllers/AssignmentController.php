@@ -18,7 +18,7 @@ use yii\web\Controller;
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
-class AssignmentController extends Controller
+class AssignmentController extends \app\components\Controller
 {
     /**
      * Show form with auth items for user.
