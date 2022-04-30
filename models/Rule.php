@@ -83,7 +83,7 @@ class Rule extends Model
         return [
             [['name', 'class'], 'trim'],
             [['name', 'class'], 'required'],
-            ['name', 'match', 'pattern' => '/^[\w][\w-.:]+[\w]$/'],
+            ['name', 'match', 'pattern' => '/^[\w][\w\-.:]+[\w]$/'],
             ['name', function () {
                 if ($this->name == $this->_oldName) {
                     return;
